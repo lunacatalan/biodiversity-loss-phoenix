@@ -1,0 +1,32 @@
+
+# Background
+
+## Load Libraries and MPC
+```{python}
+
+import numpy as np
+import geopandas as gpd
+import rioxarray as rioxr
+import matplotlib.pyplot as plt
+
+from shapely.geometry import Polygon 
+
+# library to access catalog
+from pystac_client import Client
+# used to sign items from the MPC STAC catalog 
+import planetary_computer
+
+from IPython.display import Image
+
+```
+
+```{python}
+# access the catalog
+catalog = Client.open(
+    "https://planetarycomputer.microsoft.com/api/stac/v1",
+    modifier = planetary_computer.sign_inplace)
+
+io_bii = catalog.get_child('io-biodiversity')
+```
+
+
