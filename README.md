@@ -13,7 +13,7 @@ Analysis Steps:
 
 Data was accessed from these sources:
 
-[US Census TIGER Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2022&layergroup=County+Subdivisions)/
+[US Census TIGER Shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2022&layergroup=County+Subdivisions)
 
 [Microsoft Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/catalog)
 
