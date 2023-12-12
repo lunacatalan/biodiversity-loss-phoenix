@@ -18,15 +18,17 @@ Data was accessed from these sources:
 [Microsoft Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/catalog)
 
 ## File Structure 
-  biodiversity-loss-phoenix  
-   │   README.md  
-   │   bii_phoenix.ipynb      
-   │
-   └───data
-        |tl_2022_04_cousub
-           tl_2022_04_cousub.cpg
-           tl_2022_04_cousub.dbf
-           tl_2022_04_cousub.prj
-           tl_2022_04_cousub.shp
-           tl_2022_04_cousub.shx
+
+  
+    biodiversity-loss-phoenix  
+     │   README.md  
+     │   bii_phoenix.ipynb      
+     │
+     └───data
+          └───tl_2022_04_cousub
+               |  tl_2022_04_cousub.cpg
+               |  tl_2022_04_cousub.dbf
+               |  tl_2022_04_cousub.prj
+               |  tl_2022_04_cousub.shp
+               |  tl_2022_04_cousub.shx
     
